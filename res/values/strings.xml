@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">About</string>
+    <string name="about_title">About Flashlight</string>
+    <string name="about_message">
+        <b>Developed by:</b>\n
+        Stefan Fabian\n\n
+        <b>Images by</b>\n
+        Simiographics\n
+        (simiographics.deviantart.com)\n
+        <b>and slightly modified by</b>\n
+        Stefan Fabian
+    </string>
+    <string name="app_name">Flashlight</string>
+    <string name="flashlight_description">Turn On/Off</string>
+    <string name="force_display_light">Force Display Light</string>
+    <string name="help">Help</string>
+    <string name="help_message">
+        <b><u>Compatibility Mode</u></b>\n
+        Try this if this app is not working although your phone has a LED Flash.\n\n
+        <b><u>Force Display Light</u></b>\n
+        Use this mode if your phone does NOT have a LED Flash.\n\n
+        <b><u>Bugs and Suggestions</u></b>\n
+        Have you found a bug?\n
+        Do you have any suggestions?\n
+        Send me an E-Mail at:\n
+        stefan.fabian.dev@hotmail.com
+    </string>
+    <string name="preview_mode">Compatibility Mode</string>
+    
+</resources>

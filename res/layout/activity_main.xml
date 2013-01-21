@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:onClick="toggleLight"
+    android:id="@+id/window" >
+    <ImageView android:src="@drawable/flashlight_icon_off"
+        android:contentDescription="@string/flashlight_description"
+        android:id="@+id/FlashlightButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

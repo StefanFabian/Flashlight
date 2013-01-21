@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="about">Über</string>
+    <string name="about_title">Über Taschenlampe</string>
+    <string name="about_message">
+        <b>Entwickelt von</b>\n
+        Stefan Fabian\n\n
+        <b>Bilder von</b>\n
+        Simiographics\n
+        (simiographics.deviantart.com)\n
+        <b>und leicht verändert von</b>\n
+        Stefan Fabian
+    </string>
+    <string name="app_name">Taschenlampe</string>
+    <string name="flashlight_description">An-/Ausschalten</string>
+    <string name="force_display_light">Display Licht erzwingen</string>
+    <string name="help">Hilfe</string>
+    <string name="help_message">
+        <b><u>Kompatibilitätsmodus</u></b>\n
+        Probiere den Kompatibilitätsmodus, wenn die App nicht funktioniert, obwohl dein Handy einen LED Blitz hat.\n\n
+        <b><u>Display Licht erzwingen</u></b>\n
+        Nutze diesen Modus, wenn dein Handy keinen LED Blitz hat.\n\n
+        <b><u>Bugs und Vorschläge</u></b>\n
+        Hast du einen Bug (Fehler) gefunden?\n
+        Hast du einen Vorschlag zur Verbesserung dieser App?\n
+        Sende mir eine E-Mail an:\n
+        stefan.fabian.dev@hotmail.com
+    </string>
+    <string name="preview_mode">Kompatibilitätsmodus</string>
+    
+</resources>
