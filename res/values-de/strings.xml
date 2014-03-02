@@ -15,6 +15,7 @@
     <string name="app_name">Taschenlampe</string>
     <string name="flashlight_description">An-/Ausschalten</string>
     <string name="force_display_light">Display Licht erzwingen</string>
+    <string name="great">Toll!</string>
     <string name="help">Hilfe</string>
     <string name="help_message">
         <b><u>Kompatibilitätsmodus</u></b>\n
@@ -27,6 +28,14 @@
         Sende mir eine E-Mail an:\n
         stefan.fabian.dev@hotmail.com
     </string>
+    <string name="is_not_working">Nein, Kompatibilitätsmodus probieren</string>
+    <string name="is_working_message">Funktioniert es oder möchtest du den Kompatibilitätsmodus versuchen?</string>
+    <string name="is_working_message2">Funktioniert es jetzt?\nSollte es immer noch nicht funktionieren und dein Handy über einen LED Blitz verfügen, dann kontaktiere mich bitte mit einer kurzen Info bei welcher Marke/Modell es nicht funktioniert.\nDu kannst aber auch den Display als Lichtquelle nutzen, wenn du möchtest.</string>
+    <string name="is_working_now">Nein, es funktioniert jetzt</string>
+    <string name="is_working_title">Funktioniert es?</string>
+    <string name="no">Nein</string>
     <string name="preview_mode">Kompatibilitätsmodus</string>
-    
+    <string name="still_not_working">Nein, benutz den Bildschirm</string>
+    <string name="what_a_shame">Schande über mich ;(</string>
+    <string name="yes">Ja</string>
 </resources>

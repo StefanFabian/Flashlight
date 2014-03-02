@@ -15,6 +15,7 @@
     <string name="app_name">Flashlight</string>
     <string name="flashlight_description">Turn On/Off</string>
     <string name="force_display_light">Force Display Light</string>
+    <string name="great">Great!</string>
     <string name="help">Help</string>
     <string name="help_message">
         <b><u>Compatibility Mode</u></b>\n
@@ -27,6 +28,14 @@
         Send me an E-Mail at:\n
         stefan.fabian.dev@hotmail.com
     </string>
+    <string name="is_not_working">No, try compatibility mode</string>
+    <string name="is_working_message">Is it working or shall we try the compatibility mode?</string>
+    <string name="is_working_message2">Is it working now?\nIf it is still not working and you do have a flashlight please contact me and tell me what phone you\'re using.\nYou can use the display as lightsource if you want.</string>
+    <string name="is_working_now">No, it\'s working now</string>
+    <string name="is_working_title">Does it work?</string>
+    <string name="no">No</string>
     <string name="preview_mode">Compatibility Mode</string>
-    
+    <string name="still_not_working">No, use display</string>
+    <string name="what_a_shame">What a shame :(</string>
+    <string name="yes">Yes</string>
 </resources>
