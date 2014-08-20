@@ -217,21 +217,14 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
 		if( cam == null ) {
 			init();
 		}
-		toggleLight(TOGGLE);
 	}
 	
 	public void onPause() {
 		super.onPause();
-		toggleLight(FORCE_OFF);
 	}
 	
 	public void onStop() {
 		super.onStop();
-		if( cam != null ) {
-			cam.stopPreview();
-			cam.release();
-			cam = null;
-		}
 	}
 	
 	public void onDestroy() {
