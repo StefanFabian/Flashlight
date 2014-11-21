@@ -1,6 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@+id/preview_mode" android:checkable="true" android:title="@string/preview_mode" />
     <item android:id="@+id/force_display_light" android:checkable="true" android:title="@string/force_display_light"/>
+    <item android:id="@+id/light_on_start" android:checkable="true" android:title="@string/light_on_start"/>
     <item android:id="@+id/help" android:title="@string/help"/>
     <item android:id="@+id/about" android:title="@string/about" />
 </menu>

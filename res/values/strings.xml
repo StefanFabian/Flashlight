@@ -33,7 +33,10 @@
     <string name="is_working_message2">Is it working now?\nIf it is still not working and you do have a flashlight please contact me and tell me what phone you\'re using.\nYou can use the display as lightsource if you want.</string>
     <string name="is_working_now">No, it\'s working now</string>
     <string name="is_working_title">Does it work?</string>
+    <string name="light_on_start">Light On Start</string>
     <string name="no">No</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
     <string name="preview_mode">Compatibility Mode</string>
     <string name="still_not_working">No, use display</string>
     <string name="what_a_shame">What a shame :(</string>

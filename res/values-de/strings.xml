@@ -33,7 +33,10 @@
     <string name="is_working_message2">Funktioniert es jetzt?\nSollte es immer noch nicht funktionieren und dein Handy über einen LED Blitz verfügen, dann kontaktiere mich bitte mit einer kurzen Info bei welcher Marke/Modell es nicht funktioniert.\nDu kannst aber auch den Display als Lichtquelle nutzen, wenn du möchtest.</string>
     <string name="is_working_now">Nein, es funktioniert jetzt</string>
     <string name="is_working_title">Funktioniert es?</string>
+    <string name="light_on_start">Bei Start Licht an</string>
     <string name="no">Nein</string>
+    <string name="off">Aus</string>
+    <string name="on">An</string>
     <string name="preview_mode">Kompatibilitätsmodus</string>
     <string name="still_not_working">Nein, benutz den Bildschirm</string>
     <string name="what_a_shame">Schande über mich ;(</string>
