@@ -7,6 +7,7 @@ package stefan.fabian.tools.flashlight;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.graphics.Color;
+import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import android.os.Build;
 import android.view.SurfaceHolder;
@@ -66,6 +67,8 @@ public class Flashlight {
     public static boolean setPreviewDisplay(SurfaceHolder surfaceHolder) throws IOException {
         if (cam != null) {
             cam.setPreviewDisplay(surfaceHolder);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
+                cam.setPreviewTexture(new SurfaceTexture(0));
             return true;
         }
         return false;
@@ -98,14 +101,21 @@ public class Flashlight {
     public static boolean getUseDisplayLight() { return useDisplayLight; }
 
     /**
-     * Closes and releases all resources used by the Flashlight.
+     * Releases the camera.
      */
-    public static void close() {
+    public static void ReleaseCamera() {
         if( cam != null ) {
             cam.stopPreview();
             cam.release();
             cam = null;
         }
+    }
+
+    /**
+     * Closes and releases all resources used by the Flashlight.
+     */
+    public static void Close() {
+        ReleaseCamera();
         window = null;
     }
 
@@ -163,6 +173,7 @@ public class Flashlight {
             b_on = turnOn;
             return true;
         }
+        if (cam == null && activity != null) Init(activity.getWindow(), compatibilityMode, useDisplayLight);
         if (cam == null) return false;
         Camera.Parameters p = cam.getParameters();
         if (turnOn) {
@@ -174,12 +185,11 @@ public class Flashlight {
             }
         } else {
             if (window != null) window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-            p.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
-            cam.setParameters(p);
-            if (compatibilityMode) {
-                cam.stopPreview();
-                cam.release();
-                cam = null;
+            if (!compatibilityMode) {
+                p.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
+                cam.setParameters(p);
+            } else {
+                ReleaseCamera();
             }
         }
         b_on = turnOn;

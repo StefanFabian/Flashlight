@@ -186,7 +186,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
     @Override
 	public void onDestroy() {
 		super.onDestroy();
-        Flashlight.close();
+        Flashlight.Close();
 	}
 
 
