@@ -175,6 +175,14 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
             updateWidget();
         }
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        // Release camera if App is paused and flashlight is not on.
+        if (!Flashlight.IsOn())
+            Flashlight.ReleaseCamera();
+    }
 	
     @Override
 	public void onResume() {
